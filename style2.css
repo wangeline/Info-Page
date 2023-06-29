@@ -1,0 +1,90 @@
+/*SECOND PROJECT*/
+body{
+  /*background-color:  #99c1de;*/
+}
+
+#back {
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  margin-left: 97.3%;
+  background-color: white;
+  border: solid 1px;
+}
+
+#back:hover {
+  opacity: 0.7;
+}
+
+#back:active {
+  height: 30px;
+  width: 30px;
+  margin-left: 97.5%;
+}
+
+h3 {
+  position: sticky;
+  top: 1%;
+}
+
+#songsDiv {
+  background-color: #ffe5ec;
+
+  margin-left: 3%;
+  margin-right: 3%;
+}
+iframe {
+  height: 300px;
+  width: 250px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+ #moviesDiv {
+    background-color: #C6E9FB;
+    width: 45%;
+    position: absolute;
+    margin-left: 3%;
+
+    /*float: left;*/
+  }
+
+  .movie {
+    height: 250px;
+    cursor: pointer;
+  }
+
+  .title {
+    font-style: oblique;
+  }
+
+  #showsDiv {
+    background-color: #BDEFD1;
+    width: 45%;
+    position: absolute;
+    right: 0; 
+   
+  margin-right: 3.4%;
+    /*float: right;*/
+  }
+
+.moviesShows {  
+ /* margin-top: 0;*/
+  height: 100%;
+  width: 50%;
+ /*position: relative;*/
+  margin-top: 2%;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 0;
+  display: block;
+
+}
+
+#recDiv {
+  background-color: #E7C8F9;
+  margin-top: 1350px;
+  margin-left: 2.8%;
+  margin-right: 2.7%;
+}
