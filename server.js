@@ -32,11 +32,16 @@ button.addEventListener("click", function() {         window.location.replace("h
 });
 */
 
+let knives = document.getElementById("knives");
+knives.addEventListener("click", function() {
+    alert("Knives Out is a 2019 American mystery film written and directed by Rian Johnson, who also serves as a co-producer. It follows master detective Benoit Blanc investigating the death of the patriarch of a wealthy, dysfunctional family.");
+}
 
+/*
   function KO() {
     alert("Knives Out is a 2019 American mystery film written and directed by Rian Johnson, who also serves as a co-producer. It follows master detective Benoit Blanc investigating the death of the patriarch of a wealthy, dysfunctional family.");
   }
-
+*/
   function THOI() {
     alert("A shy, straight-A Chinese-American student helps the school jock woo a girl whom, secretly, they both desire. They find themselves connecting and learn about the nature of love.");
   }
