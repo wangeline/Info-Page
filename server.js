@@ -1,3 +1,12 @@
+// FIRST PROJECT
+let image = document.getElementById("pfp");
+
+image.addEventListener("click", function() {          window.location.replace("https://codepen.io/Angie-W/full/zYMNMPQ");
+  //https://codepen.io/Angie-W/full/zYMNMPQ
+});
+
+
+// SECOND PROJECT
 /*
 let button = document.getElementById("back");
 button.addEventListener("click", function() {         window.location.replace("https://codepen.io/Angie-W/full/oNQBdLw");
@@ -49,4 +58,3 @@ function movieRec() {
   var input = document.getElementById("movieIn");
   alert("Thank you for the recommendation! I'll be sure to add " + input.value + " to my watchlist.");
 }
-
